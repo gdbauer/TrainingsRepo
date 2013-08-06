@@ -4,16 +4,18 @@
 
 #include <string>
 
+using namespace std;
+
 class Einwohner {
 
-   std::string name;
+   string name;
    int alter;
 
 public:
 
-   Einwohner(std::string name, int alter);
+   Einwohner(string name, int alter);
 
-   const std::string& Name() const { return name; };
+   const string& Name() const { return name; };
    int Alter() const { return alter;  };
 
 };

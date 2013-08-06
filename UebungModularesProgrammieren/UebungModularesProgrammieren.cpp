@@ -5,7 +5,7 @@
 using namespace std;
 using namespace Stack;
 
-Stack::v_stack(int s) {
+v_stack(int s) {
    top = 0;
    if (s<0 || 10000<s) throw Bad_size();
    max_size = s;
