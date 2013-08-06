@@ -8,7 +8,7 @@
 using namespace std;
 
 int main() {
-   Firma denoGata("DenoGata", 10);
+   Firma denoGata("DenoGata", 10); 
 
    Mitarbeiter* dirk = new Mitarbeiter("Dirk", 21, 650);
    Mitarbeiter* kevin = new Mitarbeiter("Kevin", 21, 750);
